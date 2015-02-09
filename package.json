@@ -1,6 +1,6 @@
 {
   "name": "is_arguments",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "is_arguments for the browser and node.js",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
-    "is_length": "nathanfaucett/is_length",
-    "is_object_like": "nathanfaucett/is_object_like"
+    "is_length": "",
+    "is_object_like": ""
   }
 }
