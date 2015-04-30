@@ -21,7 +21,7 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
-    "is_length": "",
-    "is_object_like": ""
+    "is_length": "git://github.com/nathanfaucett/is_length",
+    "is_object_like": "git://github.com/nathanfaucett/is_object_like"
   }
 }
