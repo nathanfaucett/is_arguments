@@ -2,7 +2,7 @@ var assert = require("assert"),
     isArguments = require("../src/index");
 
 
-describe("isArguments", function() {
+describe("isArguments(object)", function() {
     it("should return true when the value is arguments", function() {
         assert.equal(isArguments(null), false);
         assert.equal(isArguments(undefined), false);
