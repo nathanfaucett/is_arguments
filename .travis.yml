@@ -1,4 +1,4 @@
-langauge node_js
+langauge: node_js
 
 node_js:
     - "0.12"
