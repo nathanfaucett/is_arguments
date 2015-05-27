@@ -7,7 +7,7 @@
     "url": "https://github.com/nathanfaucett/is_arguments.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node test/index.js"
   },
   "main": "src/index.js",
   "keywords": [
@@ -21,26 +21,12 @@
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-jsbeautifier": "^0.2.7",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "tape": "^4.0.0",
+    "zuul": "^3.0.0"
   },
   "dependencies": {
     "is_length": "git://github.com/nathanfaucett/is_length",
     "is_object_like": "git://github.com/nathanfaucett/is_object_like"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/8..latest",
-      "firefox/17..latest",
-      "firefox/nightly",
-      "chrome/22..latest",
-      "chrome/canary",
-      "opera/12..latest",
-      "opera/next",
-      "safari/5.1..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest",
-      "android-browser/4.2..latest"
-   ]
   }
 }
