@@ -1,4 +1,5 @@
-langauge: node_js
-
+language: node_js
 node_js:
-    - "0.12"
+  - "0.12"
+  - "0.11"
+  - "0.10"
