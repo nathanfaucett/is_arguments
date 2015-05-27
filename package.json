@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/nathanfaucett/is_arguments.git"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "main": "src/index.js",
   "keywords": [
     "is_arguments",
