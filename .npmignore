@@ -1,5 +1,6 @@
 test
 node_modules
 npm-debug.log
+.zuulrc
 .npmignore
 .gitignore
