@@ -7,7 +7,8 @@
     "url": "https://github.com/nathanfaucett/is_arguments.git"
   },
   "scripts": {
-    "test": "node test/index.js"
+    "node-test": "node test/index.js",
+    "browser-test": "zuul -- test/index.js"
   },
   "main": "src/index.js",
   "keywords": [

@@ -1,9 +1,11 @@
 language: node_js
 
 node_js:
-  - "0.12"
+- '0.12'
+
+script: "npm run node-test && npm run browser-test"
 
 env:
   global:
-    - secure: gM0qiDHfYtAPIpHF+hV+WscZoM4gIKhes28cWJ8Ac7tvLaZc5AulyzpP7h67FZtfXJOf9//an+76vTjHrfuItlCxqTXiMoCTG/U84VZWPh6Uz/bKunVO6KrcLvyHXiT1jFJ2UXD04POUh2kR3MUF1kCWZjhhle8s6wSq7cmrUfE=
-    - secure: howhdKs1P3yXpsb1KbzUTiqLyrvPlNbhTuMZF7rdd5OI/bX1j7hfNoAbPkhD7o05RbeP+C0h88WEbZ20TmhrvWQe1vA9tITc40RKXIG/jBFett2m1mTNXerCaLi0+Xk/dBwjB8DD49btFtnFNSepOk4NbkUB8ArbuRJk45y97+o=
+  - secure: Xg/BpNMXFWuD9RzvndsO3t/w4Ky8iYCcNI/NAHB8VpuFUNn/Gxhr4vB1f8qFLV1NvrRc4euyyG/2WP5Nu1U97M1/zDDBovldjDY1ljoG44nRkejqOCwZw2hLiJBfBgWNfu/z4Hz0B7Y0ecPRhvno+x+HYz84ym2HykwYqlVAozc=
+  - secure: Z3AmGE33koXiSYAM+3lRQu7cE95gEXhODnh0m10ZKlDVyNzJrT3R83x++Usv5TI06SIPRjjBxT0TeYuZ5V3+OP87lLtQxr0yEx2csNx1U15kMn1lcOAuslwoPZwdcGn23z99xs7VvHlPxhELbyLt4lPbx2kgFEFVJXvCT/1IpRg=
