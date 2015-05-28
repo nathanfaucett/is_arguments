@@ -2,5 +2,3 @@ isArguments [![Build Status](https://travis-ci.org/nathanfaucett/is_arguments.sv
 =======
 
 isArguments for the browser and node.js
-
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/nathanfaucett.svg)](https://saucelabs.com/u/nathanfaucett)

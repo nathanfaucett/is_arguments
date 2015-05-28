@@ -25,9 +25,5 @@
     "mocha": "^2.1.0",
     "tape": "^4.0.0",
     "zuul": "^3.0.0"
-  },
-  "dependencies": {
-    "is_length": "git://github.com/nathanfaucett/is_length",
-    "is_object_like": "git://github.com/nathanfaucett/is_object_like"
   }
 }
