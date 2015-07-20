@@ -1,8 +1,8 @@
-var test = require("tape"),
+var tape = require("tape"),
     isArguments = require("../src");
 
 
-test("isArguments(object): should return true when the value is arguments", function(assert) {
+tape("isArguments(object): should return true when the value is arguments", function(assert) {
     assert.equal(isArguments(null), false);
     assert.equal(isArguments(undefined), false);
     assert.equal(isArguments({}), false);

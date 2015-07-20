@@ -5,16 +5,8 @@ browsers:
     platform: ["Mac 10.10", "Mac 10.6", "Mac 10.8", "Mac 10.9"]
     version: oldest..latest
     
-  - name: firefox
-    platform: ["Linux", "Mac 10.10", "Mac 10.6", "Mac 10.8", "Mac 10.9", "Windows 2003", "Windows 2008", "Windows 2012", "Windows 2012 R2"]
-    version: oldest..latest
-    
   - name: safari
     platform: ["Mac 10.10", "Mac 10.6", "Mac 10.8", "Mac 10.9", "Windows 2008"]
-    version: oldest..latest
-    
-  - name: chrome
-    platform: ["Linux", "Mac 10.10", "Mac 10.6", "Mac 10.8", "Mac 10.9", "Windows 2003", "Windows 2008", "Windows 2012", "Windows 2012 R2"]
     version: oldest..latest
     
   - name: ie
