@@ -1,5 +1,6 @@
 var isLength = require("is_length"),
     isFunction = require("is_function"),
+    isArray = require("is_array"),
     isObject = require("is_object"),
     isNullOrUndefined = require("is_null_or_undefined");
 
@@ -18,10 +19,10 @@ if (
     };
 } else {
     isArguments = function isArguments(value) {
-        return (
+        return (!isArray(value) &&
             isObject(value) &&
-            isFunction(value.callee) &&
-            isLength(value.length)
+            isLength(value.length) &&
+            isFunction(value.callee)
         ) || false;
     };
 }

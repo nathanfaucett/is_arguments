@@ -9,8 +9,8 @@
   "scripts": {
     "test": "npm run node-test",
     "node-test": "node ./test/index.js | ./node_modules/.bin/tap-spec",
-    "browser-test-travis" : "zuul -- ./test/index.js",
-    "browser-test" : "zuul --local 8080 ./test/index.js"
+    "browser-test-travis": "zuul -- ./test/index.js",
+    "browser-test": "zuul --local 8080 ./test/index.js"
   },
   "main": "src/index.js",
   "keywords": [
@@ -29,6 +29,7 @@
     "zuul": "^3.0.0"
   },
   "dependencies": {
+    "is_array": "git://github.com/nathanfaucett/is_array.git",
     "is_function": "git://github.com/nathanfaucett/is_function.git",
     "is_length": "git://github.com/nathanfaucett/is_length.git",
     "is_null_or_undefined": "git://github.com/nathanfaucett/is_null_or_undefined.git",
