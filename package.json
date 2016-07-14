@@ -1,7 +1,7 @@
 {
-  "name": "is_arguments",
-  "version": "0.0.11",
-  "description": "is_arguments for the browser and node.js",
+  "name": "@nathanfaucett/is_arguments",
+  "version": "0.0.1",
+  "description": "checks if value is an arguments object",
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanfaucett/is_arguments.git"
@@ -10,7 +10,7 @@
     "test": "npm run node-test",
     "node-test": "node ./test/index.js | ./node_modules/.bin/tap-spec",
     "browser-test": "zuul -- ./test/index.js",
-    "browser-test-local": "zuul --local 8080 ./test/index.js"
+    "browser-test-local": "zuul --local 9999 ./test/index.js"
   },
   "main": "src/index.js",
   "keywords": [
@@ -21,18 +21,18 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jsbeautifier": "^0.2.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
     "tape": "^4.0.0",
     "tap-spec": "^4.0.0",
     "zuul": "^3.0.0"
   },
   "dependencies": {
-    "is_array": "git://github.com/nathanfaucett/is_array.git",
-    "is_function": "git://github.com/nathanfaucett/is_function.git",
-    "is_length": "git://github.com/nathanfaucett/is_length.git",
-    "is_null_or_undefined": "git://github.com/nathanfaucett/is_null_or_undefined.git",
-    "is_object": "git://github.com/nathanfaucett/is_object.git"
+    "@nathanfaucett/is_array": "0.0.1",
+    "@nathanfaucett/is_function": "0.0.1",
+    "@nathanfaucett/is_length": "0.0.1",
+    "@nathanfaucett/is_null_or_undefined": "0.0.1",
+    "@nathanfaucett/is_object": "0.0.1"
   }
 }
